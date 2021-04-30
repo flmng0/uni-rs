@@ -1,0 +1,22 @@
+[package]
+name = "uni-rs"
+version = "0.1.0"
+authors = ["Timothy Davis <tmthydvs@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "*"
+
+[[bin]]
+name = "bottles"
+path = "src/bottles.rs"
+
+[[bin]]
+name = "validator"
+path = "src/validator.rs"
+
+[[bin]]
+name = "fizz_buzz"
+path = "src/fizz_buzz.rs"
